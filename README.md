@@ -15,6 +15,7 @@ ACPI also boots Windows and Linux, but limited devices are provided (only CPU at
 - Side-band buttons, not yet registered as EFI Input Device.
 - UART (Right Joy Con, 115200, 8n1)
 
+
 ## Windows Kernel Debugger Enablement
 
     bcdedit /store E:\EFI\Microsoft\Boot\BCD /set {default} debug on
